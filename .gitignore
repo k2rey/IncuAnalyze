@@ -1,0 +1,17 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Local raw exports: retain only the directory documentation.
+data/raw/*
+!data/raw/README.md
+
+# Generated results: retain only the directory documentation.
+output/*
+!output/README.md
+
+# Common editor and operating-system files.
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,27 @@
+Package: IncuAnalyze
+Title: Reproducible Import and Preparation of Incucyte Time-Course Exports
+Version: 0.1.0
+Authors@R: person("Karsten", "Krey", role = c("aut", "cre"))
+Description: A small, metadata-driven R workflow for importing tab-delimited
+    Incucyte exports, retaining raw observations, adding auditable focus and
+    manual quality-control flags, generating separate interpolated tables, and
+    plotting individual time-course series.
+License: MIT + file LICENSE
+Encoding: UTF-8
+URL: https://github.com/k2rey/IncuAnalyze
+BugReports: https://github.com/k2rey/IncuAnalyze/issues
+Depends:
+    R (>= 4.1.0)
+Imports:
+    dplyr (>= 1.1.0),
+    ggplot2 (>= 3.4.0),
+    ggrepel (>= 0.9.0),
+    purrr (>= 1.0.0),
+    readr (>= 2.1.0),
+    rlang (>= 1.0.0),
+    stringr (>= 1.5.0),
+    tibble (>= 3.2.0),
+    tidyr (>= 1.3.0)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
